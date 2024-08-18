@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+.section{
+    width: 100%;
+    height: 650px;
+    background-image: url("background.png");
+    color: white;
+    background-position: center;
+    background-size: cover;
+    padding-top: 1%;
+
+}
+.logo{
+    width: 25%;
+}
+.logo header{
+    font-size: 1.1em;
+    float: right;
+}
+
+
+.navbar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-size: 1em;
+    color: white;
+    overflow: hidden;
+    
+}
+.social-icon{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.social-icon img{
+    
+   
+}
+
+.navbar-links ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+.navbar-links{
+    
+    width: 40%;
+}
+.navbar-links ul li{
+     padding: 2%;
+     font-size: 0.9em;    
+     
+}
+.navbar-links a{
+    color: white;
+    text-decoration: none;
+}
+.navbar-links li:hover {
+    border: 1px solid white;
+    border-radius: 4px;
+}
+.hideme{
+    display: none;
+}
+.toogle-button {
+    position: absolute;
+    top: .50rem;
+    right: 0.5rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50px;
+    height: 50px;
+}
+.service-content{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+   margin-top: 12%;
+}
+.service-content span{
+    color: red;
+}
+.service-content h1{
+    width: 62%;
+   margin: auto; 
+font-size: 2.7rem;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 700;
+}
+.service-content p{
+    width: 49%;
+    margin: auto;
+    line-height: 1.6;
+    font-size: 0.7rem;
+    color: white;
+    opacity: 0.702;
+}
+.button{
+    margin-top: 3%;
+       width: 16%;
+       padding: 1%;
+       background: transparent;
+       border: 1px solid white;
+       border-radius: 16px;
+       color: white;
+       font-size: 0.9rem;
+       font-weight: bold;
+}
+.circle{
+    text-align: center;
+    margin-top: 15%;
+}
+.step{
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.7;
+}
+.modern-design{
+    width: 78%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.design{
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about-design{
+    width: 45%;
+    
+}
+.design-item{
+    width: 100%;
+
+    margin-top: 10%;
+}
+.design0{
+    width: 90%;
+    display: flex;
+    
+    
+    margin-top: 5%;
+    box-shadow: 1px 1px 12px 3px gainsboro;
+    height: auto;
+
+}
+.design-content{
+    width: 55%;
+    padding: 7%;
+    position: relative;
+   
+}
+.design-content h3{
+    font-weight: bolder;
+    color: #2d3f51;
+}
+.design-content p{
+    margin-top: 5%;
+    font-size: 0.7rem;
+    color: grey;
+    line-height: 1.9;   
+}
+.read{
+    color: #2d3f51;
+}
+.design-pic{
+    width: 46%;
+    height: auto;
+}
+.design-pic img{
+    width: 100%;
+    height: 100%;
+}
+.about-design-content{
+    width: 100%;
+    height: auto;
+    padding-left: 4%;
+    color: #2d3f51;
+}
+
+.about-design-content p{
+    margin-top: 5%;
+    color: grey;
+    line-height: 1.7;
+    font-size: 0.7rem;
+
+}
+.about-design-content .para-2{
+    
+width: 80%;
+}
+.about-design-content button{
+    width: 43%;
+    height: 8vh;
+    background-color: #c8342d;
+    font-weight: lighter;
+    
+}
+
+
+
+footer{
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+    padding-bottom: 3%;
+    
+    background-color: #28252a;
+}
+.footer-data{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+    font-size: 1rem;
+}
+
+.footer-data ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    list-style-type: none;
+
+}
+.footer-icon{
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3%;
+    font-size: 1rem;
+
+}
+.footer-icon ul{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;   
+    
+}
+
+.anime{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+ .anime.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  .anime2{
+    position: relative;
+    transform: translateX(150px);
+    opacity: 0;
+    transition: 1s all ease ;
+  }
+  .anime2.active{
+    transform: translateX(0);
+    opacity: 1;
+  } 
